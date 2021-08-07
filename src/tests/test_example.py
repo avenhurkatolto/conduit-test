@@ -4,12 +4,13 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 
 def test_hi():
     # Use a breakpoint in the code line below to debug your script.
-    driver = webdriver.Chrome("driver/chromedriver")
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get('http://www.google.com/')
     time.sleep(5)  # Let the user actually see something!
     assert driver.current_url == "https://www.google.com/?gws_rd=ssl"
