@@ -35,6 +35,34 @@ jobs:
          python -m pip install --upgrade pip
          pip install flake8 pytest
 
+
+      - name: Install Chrome
+        run:  sudo apt install google-chrome-stable
+      
+      - name: Start docker
+        run: docker-compose up -d
+      
+      - name: Sleep for 45 seconds
+        run: sleep 45s
+        shell: bash
+
+
+      - name: Test with pytest
+        run:  pytest
+      
+      - name: Collect docker logs
+        uses: jwalton/gh-docker-logs@v1
+        with:
+         dest: './logs'
+      
+      - name: Archive execution artifacts
+        uses: actions/upload-artifact@v2
+        with:
+         name: docker-logs
+         path: ./logs
+
+      
+      
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
