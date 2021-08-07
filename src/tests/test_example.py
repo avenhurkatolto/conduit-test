@@ -16,7 +16,7 @@ def test_hi():
     chrome_options = Options()
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--headless')
-    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver = webdriver.Chrome('driver/chromedriver')
     driver.get('http://www.google.com/')
     time.sleep(5)  # Let the user actually see something!
     assert driver.current_url == "https://www.google.com/?gws_rd=ssl"
