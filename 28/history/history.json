@@ -1,0 +1,22 @@
+{
+  "586e31dc82a9189f4570cc6a763db834" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9df20716e8d8aca8",
+      "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/28//#testresult/9df20716e8d8aca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628511622642,
+        "stop" : 1628511633296,
+        "duration" : 10654
+      }
+    } ]
+  }
+}
