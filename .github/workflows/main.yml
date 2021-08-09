@@ -49,12 +49,7 @@ jobs:
          sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
 
-      - name: Start docker
-        run: docker-compose up -d
-      
-      - name: Sleep for 45 seconds
-        run: sleep 45s
-        shell: bash
+
 
 
       - name: Test with pytest
