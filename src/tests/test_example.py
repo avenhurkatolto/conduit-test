@@ -17,7 +17,7 @@ def test_hi():
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
+    driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver', chrome_options)
     driver.get('http://www.google.com/')
     time.sleep(5)  # Let the user actually see something!
     assert driver.current_url == "https://www.google.com/?gws_rd=ssl"
