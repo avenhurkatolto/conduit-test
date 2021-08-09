@@ -38,7 +38,7 @@ jobs:
 
       - name: Install Chrome
         run: | 
-         sudo apt install google-chrome-stable
+         sudo apt-get install google-chrome
          sudo apt-get install chromium-chromedriver
       
       - name: Start docker
