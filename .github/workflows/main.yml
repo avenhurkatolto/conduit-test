@@ -40,7 +40,15 @@ jobs:
         run: | 
          sudo apt-get install google-chrome-stable
          sudo apt-get install chromium-chromedriver
-      
+         sudo apt-get install unzip
+         wget -N http://chromedriver.storage.googleapis.com/2.26/chromedriver_linux64.zip
+         unzip chromedriver_linux64.zip
+         chmod +x chromedriver
+         sudo mv -f chromedriver /usr/local/share/chromedriver
+         sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+         sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+
+
       - name: Start docker
         run: docker-compose up -d
       
