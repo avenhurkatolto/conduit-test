@@ -1,3 +1,4 @@
+import os
 import time
 
 from selenium import webdriver
@@ -5,7 +6,11 @@ from selenium.webdriver.chrome.options import Options
 
 
 def testregistration():
-    file = open('counter.txt', 'r')
+
+    scriptpath = os.path.dirname(__file__)
+    filename = os.path.join(scriptpath, 'counter.txt')
+
+    file = open(filename, 'r')
     temp = int(file.readline())
     file.close()
 
@@ -13,11 +18,17 @@ def testregistration():
     email = name + "@hotmail.com"
     pw = "Userpass1"
     temp += 1
-    file2 = open('counter.txt', 'w')
+    file2 = open(filename, 'w')
     file2.write(str(temp))
     file2.close()
 
-    driver = webdriver.Chrome()
+    chrome_options = Options()
+    chrome_options.add_argument('--window-size=1920,1080')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+
+    driver = webdriver.Chrome(options=chrome_options)
 
     driver.get("http://localhost:1667/#/register")
     time.sleep(3)

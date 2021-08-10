@@ -1,3 +1,4 @@
+import os
 import time
 
 from selenium import webdriver
@@ -28,6 +29,7 @@ def test_writefromfile():
     pw = "Userpass1"
 
     chrome_options = Options()
+    chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
@@ -41,8 +43,13 @@ def test_writefromfile():
     driver.find_element_by_css_selector("#app > div > div > div > div > form > button").click()
 
     time.sleep(3)
+    import os.path
 
-    with open("input.txt") as file:
+    scriptpath = os.path.dirname(__file__)
+    filename = os.path.join(scriptpath, 'input.txt')
+
+
+    with open(filename) as file:
         content = file.readlines()
         content = [x.strip() for x in content]
 
@@ -50,5 +57,5 @@ def test_writefromfile():
     addnewdata(driver, content[0], content[1], content[2], content[3])
     time.sleep(5)
     addnewdata(driver, content[4], content[5], content[6], content[7])
-
+    print(os.path.dirname(os.path.realpath(__file__)))
     assert driver.current_url == "http://localhost:1667/#/articles/title-7"

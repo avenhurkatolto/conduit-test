@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 def test_listallelements():
 
     chrome_options = Options()
+    chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
@@ -16,8 +17,6 @@ def test_listallelements():
 
     if os.path.exists("output.txt"):
         os.remove("output.txt")
-
-
 
     name = "user33"
     email = name + "@hotmail.com"
