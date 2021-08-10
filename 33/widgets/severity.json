@@ -1,0 +1,111 @@
+[ {
+  "uid" : "cfe222008c7e20e",
+  "name" : "testregistration",
+  "time" : {
+    "start" : 1628608058175,
+    "stop" : 1628608058176,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ce85b18000c5d439",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628608031838,
+    "stop" : 1628608039670,
+    "duration" : 7832
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e09e4faea6357620",
+  "name" : "test_deletedata",
+  "time" : {
+    "start" : 1628607990409,
+    "stop" : 1628608002633,
+    "duration" : 12224
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6c54513524d564b9",
+  "name" : "test_policy",
+  "time" : {
+    "start" : 1628608052515,
+    "stop" : 1628608058172,
+    "duration" : 5657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "117079b88608ac15",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628608039680,
+    "stop" : 1628608052508,
+    "duration" : 12828
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6cd384fc56b36327",
+  "name" : "test_hi",
+  "time" : {
+    "start" : 1628607974923,
+    "stop" : 1628607985753,
+    "duration" : 10830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1659d9a4fb5a74b9",
+  "name" : "test_editdata",
+  "time" : {
+    "start" : 1628608002745,
+    "stop" : 1628608018960,
+    "duration" : 16215
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a60ac34120b8f7bb",
+  "name" : "test_writefromfile",
+  "time" : {
+    "start" : 1628608058180,
+    "stop" : 1628608066016,
+    "duration" : 7836
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d2d282a24019e64b",
+  "name" : "test_adddata",
+  "time" : {
+    "start" : 1628607985762,
+    "stop" : 1628607990253,
+    "duration" : 4491
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "58dd80834993af37",
+  "name" : "test_listallelements",
+  "time" : {
+    "start" : 1628608019003,
+    "stop" : 1628608031830,
+    "duration" : 12827
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "671c3f1d99ab5d0",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628608039675,
+    "stop" : 1628608039676,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
