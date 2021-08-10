@@ -1,0 +1,151 @@
+{
+  "uid" : "87f8a14bbd1fa5d7",
+  "name" : "test_login",
+  "fullName" : "src.tests.automation.test_login#test_login",
+  "historyId" : "57322d47627e683a42b0dbc7b4adf734",
+  "time" : {
+    "start" : 1628620109593,
+    "stop" : 1628620117303,
+    "duration" : 7710
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.tests.automation"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-873"
+  }, {
+    "name" : "thread",
+    "value" : "4483-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.tests.automation.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "b29eb12030ecfaac",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/38//#testresult/b29eb12030ecfaac",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /snap/chromium/1691/usr/lib/chromium-browser/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628619735987,
+          "stop" : 1628619737156,
+          "duration" : 1169
+        }
+      }, {
+        "uid" : "71597d11054b6635",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/37//#testresult/71597d11054b6635",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628617180030,
+          "stop" : 1628617187624,
+          "duration" : 7594
+        }
+      }, {
+        "uid" : "402f1e0ac17fe89",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/36//#testresult/402f1e0ac17fe89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628616813432,
+          "stop" : 1628616821079,
+          "duration" : 7647
+        }
+      }, {
+        "uid" : "9e5dc6423d3e4aa4",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/35//#testresult/9e5dc6423d3e4aa4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628615323777,
+          "stop" : 1628615331592,
+          "duration" : 7815
+        }
+      }, {
+        "uid" : "c4ffe910d502b11",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/34//#testresult/c4ffe910d502b11",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'http://local...:1667/#/login' == 'http://localhost:1667/#/'\n  - http://localhost:1667/#/\n  + http://localhost:1667/#/login\n  ?                         +++++",
+        "time" : {
+          "start" : 1628613307182,
+          "stop" : 1628613314934,
+          "duration" : 7752
+        }
+      }, {
+        "uid" : "ce85b18000c5d439",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/33//#testresult/ce85b18000c5d439",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'http://local...:1667/#/login' == 'http://localhost:1667/#/'\n  - http://localhost:1667/#/\n  + http://localhost:1667/#/login\n  ?                         +++++",
+        "time" : {
+          "start" : 1628608031838,
+          "stop" : 1628608039670,
+          "duration" : 7832
+        }
+      }, {
+        "uid" : "999956d9f40a15fb",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/32//#testresult/999956d9f40a15fb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'http://local...:1667/#/login' == 'http://localhost:1667/#/'\n  - http://localhost:1667/#/\n  + http://localhost:1667/#/login\n  ?                         +++++",
+        "time" : {
+          "start" : 1628606565616,
+          "stop" : 1628606573305,
+          "duration" : 7689
+        }
+      }, {
+        "uid" : "9b39bc7ac2b46c11",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/31//#testresult/9b39bc7ac2b46c11",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'http://local...:1667/#/login' == 'http://localhost:1667/#/'\n  - http://localhost:1667/#/\n  + http://localhost:1667/#/login\n  ?                         +++++",
+        "time" : {
+          "start" : 1628605932165,
+          "stop" : 1628605939849,
+          "duration" : 7684
+        }
+      }, {
+        "uid" : "5684deea4fd52a33",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/30//#testresult/5684deea4fd52a33",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628605400988,
+          "stop" : 1628605402195,
+          "duration" : 1207
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "87f8a14bbd1fa5d7.json",
+  "parameterValues" : [ ]
+}
