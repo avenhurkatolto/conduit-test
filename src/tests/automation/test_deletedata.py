@@ -16,7 +16,7 @@ def test_deletedata():
     email = name + "@example.com"
     pw = "Abcd123$"
 
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome()
 
     driver.get("http://localhost:1667/#/login")
     time.sleep(5)
@@ -28,7 +28,8 @@ def test_deletedata():
 
     driver.get("http://localhost:1667/#/editor")
     time.sleep(5)
-    # app > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input
+
+
     driver.find_element_by_css_selector("#app > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input").clear()
     driver.find_element_by_css_selector("#app > div > div > div > div > form > fieldset > fieldset:nth-child(1) > input").send_keys("Title99")
     driver.find_element_by_css_selector("#app > div > div > div > div > form > fieldset > fieldset:nth-child(2) > input").send_keys("Subtitle1")

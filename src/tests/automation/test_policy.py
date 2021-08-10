@@ -10,7 +10,7 @@ def test_policy():
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome()
     driver.get("http://localhost:1667/#/")
     driver.delete_all_cookies()
     time.sleep(2)

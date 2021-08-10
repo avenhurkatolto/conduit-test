@@ -13,7 +13,7 @@ def test_listallelements():
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome()
 
     if os.path.exists("output.txt"):
         os.remove("output.txt")
