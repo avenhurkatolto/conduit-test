@@ -1,0 +1,120 @@
+{
+  "uid" : "33d594bd9df37657",
+  "name" : "test_policy",
+  "fullName" : "src.tests.automation.test_policy#test_policy",
+  "historyId" : "34bf37d0bca36c67c34e4b7522105d80",
+  "time" : {
+    "start" : 1628616846429,
+    "stop" : 1628616851971,
+    "duration" : 5542
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.tests.automation"
+  }, {
+    "name" : "suite",
+    "value" : "test_policy"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-527"
+  }, {
+    "name" : "thread",
+    "value" : "4443-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.tests.automation.test_policy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "22eb66f1b369c6a1",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/35//#testresult/22eb66f1b369c6a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628615345163,
+          "stop" : 1628615350765,
+          "duration" : 5602
+        }
+      }, {
+        "uid" : "d2843cdb097ebf92",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/34//#testresult/d2843cdb097ebf92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628613327726,
+          "stop" : 1628613333339,
+          "duration" : 5613
+        }
+      }, {
+        "uid" : "6c54513524d564b9",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/33//#testresult/6c54513524d564b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628608052515,
+          "stop" : 1628608058172,
+          "duration" : 5657
+        }
+      }, {
+        "uid" : "66861288f1458c74",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/32//#testresult/66861288f1458c74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628606586059,
+          "stop" : 1628606591640,
+          "duration" : 5581
+        }
+      }, {
+        "uid" : "25d18445535c6ea5",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/31//#testresult/25d18445535c6ea5",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+        "time" : {
+          "start" : 1628605939974,
+          "stop" : 1628605939976,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "103f28488171e761",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/30//#testresult/103f28488171e761",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+        "time" : {
+          "start" : 1628605402302,
+          "stop" : 1628605402304,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "33d594bd9df37657.json",
+  "parameterValues" : [ ]
+}

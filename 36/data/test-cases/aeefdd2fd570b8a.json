@@ -1,0 +1,124 @@
+{
+  "uid" : "aeefdd2fd570b8a",
+  "name" : "test_deletedata",
+  "fullName" : "src.tests.automation.test_deletedata#test_deletedata",
+  "historyId" : "785ec36f7ad143dce1dc717384ddf197",
+  "time" : {
+    "start" : 1628616740562,
+    "stop" : 1628616767690,
+    "duration" : 27128
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.tests.automation"
+  }, {
+    "name" : "suite",
+    "value" : "test_deletedata"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-527"
+  }, {
+    "name" : "thread",
+    "value" : "4443-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.tests.automation.test_deletedata"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "d5e9c3ebdd0515c9",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/35//#testresult/d5e9c3ebdd0515c9",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#app > div > div > div > div > form > fieldset:nth-child(1) > input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628615301342,
+          "stop" : 1628615305784,
+          "duration" : 4442
+        }
+      }, {
+        "uid" : "7753b57587109bc3",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/34//#testresult/7753b57587109bc3",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"submit\" class=\"btn btn-lg pull-xs-right btn-primary\">...</button> is not clickable at point (1334, 497). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628613266025,
+          "stop" : 1628613278164,
+          "duration" : 12139
+        }
+      }, {
+        "uid" : "e09e4faea6357620",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/33//#testresult/e09e4faea6357620",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"submit\" class=\"btn btn-lg pull-xs-right btn-primary\">...</button> is not clickable at point (592, 497). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628607990409,
+          "stop" : 1628608002633,
+          "duration" : 12224
+        }
+      }, {
+        "uid" : "2a6b070210dd8853",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/32//#testresult/2a6b070210dd8853",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"submit\" class=\"btn btn-lg pull-xs-right btn-primary\">...</button> is not clickable at point (592, 497). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628606524676,
+          "stop" : 1628606536763,
+          "duration" : 12087
+        }
+      }, {
+        "uid" : "7e468652cce3517f",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/31//#testresult/7e468652cce3517f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+        "time" : {
+          "start" : 1628605931986,
+          "stop" : 1628605931988,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "15aacb76fc70ba00",
+        "reportUrl" : "https://avenhurkatolto.github.io/conduit-test/30//#testresult/15aacb76fc70ba00",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+        "time" : {
+          "start" : 1628605400786,
+          "stop" : 1628605400788,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aeefdd2fd570b8a.json",
+  "parameterValues" : [ ]
+}
