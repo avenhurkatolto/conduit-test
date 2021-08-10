@@ -17,7 +17,7 @@ def test_logout():
     email = name + "@example.com"
     pw = "Abcd123$"
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=chrome_options)
 
     driver.get("http://localhost:1667/#/login")
     time.sleep(5)

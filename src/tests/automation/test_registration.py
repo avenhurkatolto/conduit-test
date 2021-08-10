@@ -28,7 +28,7 @@ def testregistration():
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=chrome_options)
 
     driver.get("http://localhost:1667/#/register")
     time.sleep(3)
