@@ -15,8 +15,8 @@ def testregistration():
     file.close()
 
     name = "user" + str(temp)
-    email = name + "@hotmail.com"
-    pw = "Userpass1"
+    email = name + "@example.com"
+    pw = "Abcd123$"
     temp += 1
     file2 = open(filename, 'w')
     file2.write(str(temp))

@@ -18,9 +18,9 @@ def test_listallelements():
     if os.path.exists("output.txt"):
         os.remove("output.txt")
 
-    name = "user33"
-    email = name + "@hotmail.com"
-    pw = "Userpass1"
+    name = "testuser1"
+    email = name + "@example.com"
+    pw = "Abcd123$"
 
     driver.get("http://localhost:1667/#/login")
     time.sleep(3)

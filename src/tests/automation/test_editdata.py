@@ -13,9 +13,9 @@ def test_editdata():
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    name = "user33"
-    email = name + "@hotmail.com"
-    pw = "Userpass1"
+    name = "testuser1"
+    email = name + "@example.com"
+    pw = "Abcd123$"
 
     driver = webdriver.Chrome(options=chrome_options)
 

@@ -19,8 +19,8 @@ def test_logout():
     chrome_options.add_argument('--disable-dev-shm-usage')
 
     name = "user"+temp
-    email = name + "@hotmail.com"
-    pw = "Userpass1"
+    email = name + "@example.com"
+    pw = "Abcd123$"
 
     driver = webdriver.Chrome(options=chrome_options)
 

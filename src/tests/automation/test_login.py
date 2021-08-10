@@ -5,9 +5,9 @@ from selenium.webdriver.chrome.options import Options
 
 def test_login():
 
-    name = "user33"
-    email = name + "@hotmail.com"
-    pw = "Userpass1"
+    name = "testuser1"
+    email = name + "@example.com"
+    pw = "Abcd123$"
 
     chrome_options = Options()
     chrome_options.add_argument('--window-size=1920,1080')
