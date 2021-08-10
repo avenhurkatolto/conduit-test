@@ -1,0 +1,111 @@
+[ {
+  "uid" : "25d18445535c6ea5",
+  "name" : "test_policy",
+  "time" : {
+    "start" : 1628605939974,
+    "stop" : 1628605939976,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e682260e66e3751",
+  "name" : "test_editdata",
+  "time" : {
+    "start" : 1628605932043,
+    "stop" : 1628605932046,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b9ae2031f8f2a7ce",
+  "name" : "test_listallelements",
+  "time" : {
+    "start" : 1628605932106,
+    "stop" : 1628605932109,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "43705f05f1e56a8d",
+  "name" : "testregistration",
+  "time" : {
+    "start" : 1628605940032,
+    "stop" : 1628605940032,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3830a3c21897ba46",
+  "name" : "test_hi",
+  "time" : {
+    "start" : 1628605921184,
+    "stop" : 1628605931827,
+    "duration" : 10643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e468652cce3517f",
+  "name" : "test_deletedata",
+  "time" : {
+    "start" : 1628605931986,
+    "stop" : 1628605931988,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b50510d227124b33",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628605939854,
+    "stop" : 1628605939854,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5af0d68c510255f",
+  "name" : "test_writefromfile",
+  "time" : {
+    "start" : 1628605940035,
+    "stop" : 1628605940038,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f04678a6c4a988bb",
+  "name" : "test_adddata",
+  "time" : {
+    "start" : 1628605931831,
+    "stop" : 1628605931833,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b39bc7ac2b46c11",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628605932165,
+    "stop" : 1628605939849,
+    "duration" : 7684
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5006615cfd74fed6",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628605939858,
+    "stop" : 1628605939860,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
