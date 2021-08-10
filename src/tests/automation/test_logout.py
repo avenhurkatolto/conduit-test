@@ -1,11 +1,17 @@
 import time
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 def test_logout():
     file = open('counter.txt', 'r')
     temp = int(file.readline())
     file.close()
+
+    chrome_options = Options()
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-dev-shm-usage')
 
     name = "user33"
     email = name + "@hotmail.com"
@@ -15,7 +21,7 @@ def test_logout():
     file2.write(str(temp))
     file2.close()
 
-    driver = webdriver.Chrome("driver/chromedriver")
+    driver = webdriver.Chrome(options=chrome_options)
 
     driver.get("http://localhost:1667/#/login")
     time.sleep(3)
