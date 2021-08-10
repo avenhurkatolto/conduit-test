@@ -1,0 +1,101 @@
+[ {
+  "uid" : "d1f2687b944e2d9a",
+  "name" : "test_listallelements",
+  "time" : {
+    "start" : 1628615310439,
+    "stop" : 1628615323774,
+    "duration" : 13335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "badc72840c4073a7",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628615331595,
+    "stop" : 1628615331595,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d2c12abd90fe73d8",
+  "name" : "test_writefromfile",
+  "time" : {
+    "start" : 1628615359525,
+    "stop" : 1628615390094,
+    "duration" : 30569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bedd14fd62a2a5a7",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628615331708,
+    "stop" : 1628615345159,
+    "duration" : 13451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e5dc6423d3e4aa4",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628615323777,
+    "stop" : 1628615331592,
+    "duration" : 7815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fd420d14f9a0eb5",
+  "name" : "testregistration",
+  "time" : {
+    "start" : 1628615350768,
+    "stop" : 1628615359521,
+    "duration" : 8753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22eb66f1b369c6a1",
+  "name" : "test_policy",
+  "time" : {
+    "start" : 1628615345163,
+    "stop" : 1628615350765,
+    "duration" : 5602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "756c7c354d1bb0fd",
+  "name" : "test_adddata",
+  "time" : {
+    "start" : 1628615293016,
+    "stop" : 1628615301250,
+    "duration" : 8234
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e9c3ebdd0515c9",
+  "name" : "test_deletedata",
+  "time" : {
+    "start" : 1628615301342,
+    "stop" : 1628615305784,
+    "duration" : 4442
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2b5d2e151bb986bd",
+  "name" : "test_editdata",
+  "time" : {
+    "start" : 1628615305922,
+    "stop" : 1628615310398,
+    "duration" : 4476
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,1 @@
+/home/runner/work/conduit-test/conduit-test/src/tests/automation

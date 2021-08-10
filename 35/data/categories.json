@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#app > div > div > div > div > form > fieldset:nth-child(1) > input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_adddata",
+        "uid" : "756c7c354d1bb0fd",
+        "parentUid" : "dfac3ac75b5e3815ea923aea56ae0050",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628615293016,
+          "stop" : 1628615301250,
+          "duration" : 8234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_deletedata",
+        "uid" : "d5e9c3ebdd0515c9",
+        "parentUid" : "dfac3ac75b5e3815ea923aea56ae0050",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628615301342,
+          "stop" : 1628615305784,
+          "duration" : 4442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_editdata",
+        "uid" : "2b5d2e151bb986bd",
+        "parentUid" : "dfac3ac75b5e3815ea923aea56ae0050",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628615305922,
+          "stop" : 1628615310398,
+          "duration" : 4476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dfac3ac75b5e3815ea923aea56ae0050"
+    }, {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/conduit-test/conduit-test/src/tests/automation/counter.txt.txt'",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "badc72840c4073a7",
+        "parentUid" : "e04276a57f2a7748fe8ff15096dc913b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628615331595,
+          "stop" : 1628615331595,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e04276a57f2a7748fe8ff15096dc913b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
