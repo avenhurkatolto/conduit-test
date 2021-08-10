@@ -6,11 +6,6 @@ from selenium.webdriver.chrome.options import Options
 
 
 def test_logout():
-    scriptpath = os.path.dirname(__file__)
-    filename = os.path.join(scriptpath, 'counter.txt')
-    file = open(filename, 'r')
-    temp = int(file.readline())
-    file.close()
 
     chrome_options = Options()
     chrome_options.add_argument('--window-size=1920,1080')
@@ -18,7 +13,7 @@ def test_logout():
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    name = "user" + str(temp)
+    name = "testuser1"
     email = name + "@example.com"
     pw = "Abcd123$"
 

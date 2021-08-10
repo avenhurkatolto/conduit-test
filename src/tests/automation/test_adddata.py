@@ -38,6 +38,6 @@ def test_adddata():
     driver.find_element_by_css_selector("#app > div > div > div > div > form > fieldset > fieldset:nth-child(4) > div > div > ul > li > input").send_keys("Testtag")
     driver.find_element_by_css_selector("#app > div > div > div > div > form > fieldset > fieldset:nth-child(4) > div > div > ul > li > input").send_keys(Keys.RETURN)
     driver.find_element_by_css_selector("#app > div > div > div > div > form > button").click()
-    time.sleep(3)
+    time.sleep(5)
 
     assert driver.current_url == "http://localhost:1667/#/articles/title1"
